@@ -48,7 +48,9 @@ export default async  function RootLayout({
         </ClientOnly>
         
 
-        {children}</body>
+        {children}
+        
+          </body>
     </html>
   )
 }
