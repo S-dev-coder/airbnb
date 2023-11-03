@@ -1,10 +1,18 @@
-git add package-lock.json package.json app/*
-git commit -m "Airbnb: Listing Reservation Component
-react-date-range: Added Package
-@types/react-date-range: Added Package
-Created Reservation Component
-Created date Range Selector
-Created date Range price section
-Added Calender and defined some properties so old date won't be selectable
-Added Some Calender Styling"
-git push
+
+> airbnb@0.1.0 dev
+> next dev
+
+   ▲ Next.js 14.0.0
+   - Local:        http://localhost:3000
+   - Environments: .env
+
+ ✓ Ready in 10s
+ ○ Compiling /page ...
+ ✓ Compiled /page in 23.6s (1980 modules)
+ ✓ Compiled in 26.6s (897 modules)
+ ○ Compiling /api/favorites/[listingId]/route ...
+ ✓ Compiled /api/favorites/[listingId]/route in 4.5s (1101 modules)
+ ○ Compiling /listings/[listingId]/page ...
+ ✓ Compiled /listings/[listingId]/page in 3.9s (2193 modules)
+ ○ Compiling /api/reservations/route ...
+ ✓ Compiled /api/reservations/route in 635ms (1209 modules)
