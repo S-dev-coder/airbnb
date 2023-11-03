@@ -6,13 +6,32 @@
    - Local:        http://localhost:3000
    - Environments: .env
 
- ✓ Ready in 10s
+ ✓ Ready in 6.9s
  ○ Compiling /page ...
- ✓ Compiled /page in 23.6s (1980 modules)
- ✓ Compiled in 26.6s (897 modules)
- ○ Compiling /api/favorites/[listingId]/route ...
- ✓ Compiled /api/favorites/[listingId]/route in 4.5s (1101 modules)
+ ✓ Compiled /page in 19.6s (1980 modules)
+ ✓ Compiled in 5s (897 modules)
+ ○ Compiling /favicon.ico/route ...
+ ✓ Compiled /favicon.ico/route in 3.9s (1111 modules)
+ ○ Compiling /trips/page ...
+ ✓ Compiled /trips/page in 1970ms (2002 modules)
+ ○ Compiling /not-found ...
+ ✓ Compiled /not-found in 1486ms (2007 modules)
+ ✓ Compiled /api/favorites/[listingId]/route in 446ms (1136 modules)
+ ✓ Compiled in 13.2s (1988 modules)
+ ✓ Compiled in 4.7s (1988 modules)
+ ✓ Compiled in 2.4s (1988 modules)
+ ✓ Compiled in 2.4s (899 modules)
+ ✓ Compiled in 1821ms (899 modules)
+ ✓ Compiled in 1298ms (899 modules)
+ ✓ Compiled in 1651ms (899 modules)
+ ✓ Compiled in 1824ms (899 modules)
+ ✓ Compiled in 1610ms (899 modules)
+ ✓ Compiled in 1933ms (899 modules)
+ ✓ Compiled in 1640ms (899 modules)
  ○ Compiling /listings/[listingId]/page ...
- ✓ Compiled /listings/[listingId]/page in 3.9s (2193 modules)
+ ✓ Compiled /api/favorites/[listingId]/route in 11.4s (2214 modules)
  ○ Compiling /api/reservations/route ...
- ✓ Compiled /api/reservations/route in 635ms (1209 modules)
+ ✓ Compiled /api/reservations/route in 534ms (1214 modules)
+ ○ Compiling /api/listings/route ...
+ ✓ Compiled /api/listings/route in 1327ms (1212 modules)
+ ✓ Compiled /api/reservations/route in 417ms (1214 modules)
