@@ -1,16 +1,10 @@
-
-> airbnb@0.1.0 dev
-> next dev
-
-   ▲ Next.js 14.0.0
-   - Local:        http://localhost:3000
-   - Environments: .env
-
- ✓ Ready in 6.8s
- ○ Compiling /page ...
- ✓ Compiled /page in 26.3s (1980 modules)
- ✓ Compiled in 6.8s (897 modules)
- ○ Compiling /api/auth/[...nextauth] ...
- ✓ Compiled /api/auth/[...nextauth] in 4.4s (1140 modules)
- ○ Compiling /api/favorites/[listingId]/route ...
- ✓ Compiled /api/favorites/[listingId]/route in 2.2s (1158 modules)
+git add package-lock.json package.json app/*
+git commit -m "Airbnb: Listing Reservation Component
+react-date-range: Added Package
+@types/react-date-range: Added Package
+Created Reservation Component
+Created date Range Selector
+Created date Range price section
+Added Calender and defined some properties so old date won't be selectable
+Added Some Calender Styling"
+git push
