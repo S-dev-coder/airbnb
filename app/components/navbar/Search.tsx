@@ -25,7 +25,7 @@ const Search = () => {
         return getByValue(locationValue as string)?.label;
       }
   
-      return 'Anywhere';
+      return 'Any Where';
     }, [locationValue, getByValue]);
   
     const durationLabel = useMemo(() => {
@@ -72,7 +72,7 @@ const Search = () => {
                 className="
                     flex
                     flex-row
-                    item-center
+                    items-center
                     justify-between
                 "
             >

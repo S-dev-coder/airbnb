@@ -7,7 +7,7 @@ import getCurrentUser from "@/app/actions/getCurrentUser";
 
 import PropertiesClient from "./PropertiesClient";
 import getListings from "../actions/getListings";
-import TripsClient from "./PropertiesClient";
+
 
 const PropertiesPage = async () => {
   const currentUser = await getCurrentUser();
@@ -23,13 +23,13 @@ const PropertiesPage = async () => {
     );
   }
 
-  const listings = await getListings({ userId: currentUser.id });
+  const listings = await getListings({});
 
   if (listings.length === 0) {
     return (
       <ClientOnly>
         <EmptyState
-          title="No properapp/tripsties found"
+          title="No properties found"
           subtitle="Looks like you have no properties."
         />
       </ClientOnly>

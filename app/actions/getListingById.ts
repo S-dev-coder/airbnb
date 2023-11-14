@@ -28,7 +28,7 @@ export default async function getListingById(
       createdAt: listing.createAt.toString(),
       user: {
         ...listing.user,
-        createdAt: listing.user.createdAt.toString(),
+        createAt: listing.user.createdAt.toString(),
         updatedAt: listing.user.updatedAt.toString(),
         emailVerified: 
           listing.user.emailVerified?.toString() || null,
